@@ -2,7 +2,7 @@
   <div>
     <div class="title">热销推荐</div>
     <ul>
-      <li class="item" border-bottom v-for="item of recommendList" :key="item.id">
+      <li class="item" border-bottom v-for="item of list" :key="item.id">
           <img class="item-img" :src="item.imgurl">
         <div class="item-info">
           <p class="item-title">{{item.title}} </p>
@@ -16,30 +16,8 @@
 <script>
 export default {
   name: 'HomeWeekend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgurl: 'http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_200x200_63285bd9.jpg',
-        title: '成都海昌极地海洋公园',
-        desc: '浪漫成都首站，浪漫的海洋主题乐园'
-      }, {
-        id: '0002',
-        imgurl: 'http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_200x200_63285bd9.jpg',
-        title: '成都海昌极地海洋公园',
-        desc: '浪漫成都首站，浪漫的海洋主题乐园'
-      }, {
-        id: '0003',
-        imgurl: 'http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_200x200_63285bd9.jpg',
-        title: '成都海昌极地海洋公园',
-        desc: '浪漫成都首站，浪漫的海洋主题乐园'
-      }, {
-        id: '0004',
-        imgurl: 'http://img1.qunarzz.com/sight/p0/1612/1d/1d9a740c1f9e0efaa3.img.jpg_200x200_63285bd9.jpg',
-        title: '成都海昌极地海洋公园',
-        desc: '浪漫成都首站，浪漫的海洋主题乐园'
-      }]
-    }
+  props: {
+    list: Array
   }
 }
 
