@@ -1,0 +1,40 @@
+{
+  "ret": true,
+  "data": {
+    "sightName": "成都大熊猫繁育研究基地(AAAA景区)",
+    "bannerImg": "http://img1.qunarzz.com/sight/p0/201309/24/977fea7b3c5cd758c8d65eac.jpg_350x240_ce406ae4.jpg",
+    "commentsNum": 27,
+    "gallaryImgs": [
+      "http://img1.qunarzz.com/sight/p0/201309/24/977fea7b3c5cd758c8d65eac.jpg_350x240_ce406ae4.jpg",
+      "http://img1.qunarzz.com/wugc/p59/201207/27/762b530b2ed2288293835fbb.jpg_350x240_a82c7694.jpg",
+      "http://img1.qunarzz.com/wugc/p216/201207/16/40e62ea907230da393835fbb.jpg_350x240_a2d2012e.jpg"
+    ],
+    "categoryList": [
+      {
+        "title": "成人票",
+        "children": [
+          {
+            "title": "成人三馆联票",
+            "children": [
+              {
+                "title": "成人三馆联票 - 某一连锁店销售"
+              }
+            ]
+          },
+          {
+            "title": "成人五馆联票"
+          }
+        ]
+      },
+      {
+        "title": "学生票"
+      },
+      {
+        "title": "儿童票"
+      },
+      {
+        "title": "特惠票"
+      }
+    ]
+  }
+}
